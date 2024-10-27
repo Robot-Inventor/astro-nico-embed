@@ -1,3 +1,6 @@
 {
-    "extends": "@robot-inventor/tsconfig-base/tsc.json"
+    "extends": "@robot-inventor/tsconfig-base/bundler.json",
+    "compilerOptions": {
+        "jsx": "preserve"
+    }
 }
