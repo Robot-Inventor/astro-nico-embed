@@ -1,2 +1,2 @@
-import AstroNicoEmbed from "./AstroNicoEmbed.astro";
-export { AstroNicoEmbed };
+import NicoVideo from "./AstroNicoEmbed.astro";
+export { NicoVideo };
