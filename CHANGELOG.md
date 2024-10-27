@@ -1,5 +1,11 @@
 # astro-nico-embed
 
+## 1.0.2
+
+### Patch Changes
+
+-   [#12](https://github.com/Robot-Inventor/astro-nico-embed/pull/12) [`74f1d40`](https://github.com/Robot-Inventor/astro-nico-embed/commit/74f1d406e4c257fa2bfb34e12f458757a30a89d6) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - fix: change property name to match documentation
+
 ## 1.0.1
 
 ### Patch Changes
