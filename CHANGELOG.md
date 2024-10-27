@@ -1,5 +1,13 @@
 # astro-nico-embed
 
+## 1.0.1
+
+### Patch Changes
+
+-   [#9](https://github.com/Robot-Inventor/astro-nico-embed/pull/9) [`0b517f9`](https://github.com/Robot-Inventor/astro-nico-embed/commit/0b517f9253470607733eacb09f99cda41bebb16a) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - fix: update `tsconfig.json` for a better development experience
+
+-   [#8](https://github.com/Robot-Inventor/astro-nico-embed/pull/8) [`48d4c5a`](https://github.com/Robot-Inventor/astro-nico-embed/commit/48d4c5a172c0057665fc5ca3a0f8f8f2c66f594c) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - fix: change component name to match documentation
+
 ## 1.0.0
 
 ### Major Changes
