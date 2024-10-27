@@ -1,7 +1,18 @@
 ---
 interface Props {
+    /**
+     * The ID of the Niconico video to embed. This is the part of the video URL after `watch/`, e.g. `sm9` for `https://www.nicovideo.jp/watch/sm9`
+     */
     id: string;
+
+    /**
+     * The loading strategy for the video player. If set to `lazy`, the video player will only be loaded when it is in the viewport. If set to `eager`, the video player will be loaded immediately.
+     */
     loading?: "lazy" | "eager";
+
+    /**
+     * The aspect ratio of the video player. This is used to calculate the height of the video player based on the width. Its format is same as CSS `aspect-ratio` property.
+     */
     aspectRatio?: string;
 }
 
