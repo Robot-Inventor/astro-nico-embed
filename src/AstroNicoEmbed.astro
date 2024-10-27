@@ -1,0 +1,35 @@
+---
+interface Props {
+    id: string;
+    loading?: "lazy" | "eager";
+    aspectRatio?: string;
+}
+
+let videoId = Astro.props.id;
+
+if (Astro.props.id.startsWith("https://www.nicovideo.jp/watch/")) {
+    const videoUrl = new URL(Astro.props.id);
+
+    const possiblyVideoId = videoUrl.pathname.split("/").pop();
+    if (!possiblyVideoId) {
+        throw new Error(`Invalid niconico video ID: ${Astro.props.id}`);
+    }
+
+    videoId = possiblyVideoId;
+}
+---
+
+<iframe
+    class="embedded-nico-video-component"
+    src={`https://embed.nicovideo.jp/watch/${videoId}`}
+    allowfullscreen
+    loading={Astro.props.loading ?? "lazy"}
+    allow="picture-in-picture;"
+    style={`aspect-ratio: ${Astro.props.aspectRatio ?? "16 / 9"};`}></iframe>
+<style>
+    .embedded-nico-video-component {
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+</style>

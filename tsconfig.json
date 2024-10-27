@@ -1,0 +1,3 @@
+{
+    "extends": "@robot-inventor/tsconfig-base/tsc.json"
+}
