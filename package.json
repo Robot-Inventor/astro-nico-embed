@@ -1,6 +1,6 @@
 {
   "name": "astro-nico-embed",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "AstroNicoEmbed allows easy embedding of Niconico Douga (ニコニコ動画) videos in Astro projects.",
   "main": "src/index.ts",
   "type": "module",

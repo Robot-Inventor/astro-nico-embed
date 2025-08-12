@@ -1,5 +1,11 @@
 # astro-nico-embed
 
+## 1.0.4
+
+### Patch Changes
+
+- [#45](https://github.com/Robot-Inventor/astro-nico-embed/pull/45) [`dad03d2`](https://github.com/Robot-Inventor/astro-nico-embed/commit/dad03d256fb8d1bf996169711e9fe41362805672) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - ci: migrate from npm token to trusted publishing
+
 ## 1.0.3
 
 ### Patch Changes
