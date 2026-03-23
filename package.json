@@ -39,6 +39,6 @@
     "@robot-inventor/tsconfig-base": "^7.0.0",
     "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.1",
-    "typescript": "^5.6.3"
+    "typescript": "^6.0.0"
   }
 }
