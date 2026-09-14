@@ -1,5 +1,11 @@
 # astro-nico-embed
 
+## 1.0.5
+
+### Patch Changes
+
+- [#84](https://github.com/Robot-Inventor/astro-nico-embed/pull/84) [`7e4e92b`](https://github.com/Robot-Inventor/astro-nico-embed/commit/7e4e92be23f04de672d5d5a734bd45357a161152) Thanks [@Robot-Inventor](https://github.com/Robot-Inventor)! - style: format with the latest version of prettier-plugin-astro
+
 ## 1.0.4
 
 ### Patch Changes
