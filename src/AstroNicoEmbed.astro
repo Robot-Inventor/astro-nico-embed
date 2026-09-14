@@ -36,7 +36,8 @@ if (Astro.props.videoId.startsWith("https://www.nicovideo.jp/watch/")) {
     allowfullscreen
     loading={Astro.props.loading ?? "lazy"}
     allow="picture-in-picture;"
-    style={`aspect-ratio: ${Astro.props.aspectRatio ?? "16 / 9"};`}></iframe>
+    style={`aspect-ratio: ${Astro.props.aspectRatio ?? "16 / 9"};`}
+></iframe>
 <style>
     .embedded-nico-video-component {
         width: 100%;
