@@ -2,43 +2,42 @@
   "name": "astro-nico-embed",
   "version": "1.0.5",
   "description": "AstroNicoEmbed allows easy embedding of Niconico Douga (ニコニコ動画) videos in Astro projects.",
-  "main": "src/index.ts",
-  "type": "module",
-  "files": [
-    "./src/"
+  "keywords": [
+    "astro",
+    "astro-component",
+    "media",
+    "video",
+    "withastro"
   ],
-  "publishConfig": {
-    "provenance": true
+  "homepage": "https://github.com/Robot-Inventor/astro-nico-embed#readme",
+  "bugs": {
+    "url": "https://github.com/Robot-Inventor/astro-nico-embed/issues"
   },
-  "scripts": {
-    "format": "npx prettier --write ./src/**/*",
-    "format:check": "npx prettier --check ./src/**/*",
-    "ci:version": "npx changeset version",
-    "ci:publish": "npx changeset publish"
-  },
+  "license": "MIT",
+  "author": "Robot-Inventor",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Robot-Inventor/astro-nico-embed.git"
   },
-  "keywords": [
-    "astro",
-    "withastro",
-    "astro-component",
-    "video",
-    "media"
+  "files": [
+    "./src/"
   ],
-  "author": "Robot-Inventor",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Robot-Inventor/astro-nico-embed/issues"
+  "type": "module",
+  "main": "src/index.ts",
+  "publishConfig": {
+    "provenance": true
   },
-  "homepage": "https://github.com/Robot-Inventor/astro-nico-embed#readme",
+  "scripts": {
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
+    "ci:version": "changeset version",
+    "ci:publish": "changeset publish"
+  },
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.0",
     "@changesets/cli": "^3.0.0",
     "@robot-inventor/tsconfig-base": "^7.0.0",
-    "prettier": "^3.3.3",
-    "prettier-plugin-astro": "^1.0.0",
+    "oxfmt": "^0.75.0",
     "typescript": "^7.0.0"
   }
 }
